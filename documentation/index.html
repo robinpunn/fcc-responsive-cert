@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="navbar">
+      <header id="nav-head">Ethereum Defi</header>
+      <ul>
+        <li><a class="nav-link" href="#Defi">What is Defi?</a></li>
+        <li><a class="nav-link" href="#MKR">Maker</a></li>
+        <li><a class="nav-link" href="#CRV">Curve</a></li>
+        <li><a class="nav-link" href="#Aave">Aave</a></li>
+        <li><a class="nav-link" href="#UNI">Uniswap</a></li>
+        <li><a class="nav-link" href="#CVX">Convex</a></li>
+        <li><a class="nav-link" href="#COM">Compound</a></li>
+        <li><a class="nav-link" href="#BAL">Balancer</a></li>
+        <li><a class="nav-link" href="#SUSHI">Sushi</a></li>
+        <li><a class="nav-link" href="#FRAX">Frax</a></li>
+        <li><a class="nav-link" href="#YEARN">Yearn</a></li>
+        <li><a class="nav-link" href="#SPELL">Abracadabra</a></li>
+        <li><a class="nav-link" href="#BNT">Bancor</a></li>
+        <li><a class="nav-link" href="#TORN">Tornado Cash</a></li>
+        <li><a class="nav-link" href="#OHM">Olympus DAO</a></li>
+        <li><a class="nav-link" href="#SNX">Synthetix</a></li>
+        <li><a class="nav-link" href="#SEA">Open Sea</a></li>
+        <li><a class="nav-link" href="#ref">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Defi">
+        <header>What is Defi?</header>
+        <article>
+            <p>Defi is short for decentralized finance. The ethereum blockchain houses code that powers dApps (decentralized applications). These dApps have various functionality based on their code. Users of dApps access decentralized services on the blockchain in a permissionless manner.</p>
+            <p>Types of dApps include:</p>
+            <ul class="defi-ul">
+                <li>decentralized exchanges</li>
+                <li>lending protocols</li>
+                <li>yield aggregators</li>
+                <li>marketplaces</li>
+            </ul>
+        </article>
+      </section>
+      <section class="main-section" id="MKR">
+        <header>Maker Dao</header>
+        <article>
+          <p>MakerDAO is a lending and borrowing protocol.</p>
+          <p>By depositing ethereum, users are able to borrow DAI.  DAI is a stablecoin that is pegged to the US dollar.  With borrowed DAI, users are able to use it the same way fiat currency would be used.</p>
+          <p>Users have to keep track of ethereum price as a level of collateral must be maintained.  If the price of ethereum falls too far, part of the ethereum collateral will be liquidated unless the DAI loan is repaid.</p>
+          <code>deposit eth => borrow dai => maintain collateral</code>
+          <p>Users can also acquire the Maker token.  The MKR token gives holders governance rights allowing for votes on proposals involving the protocol.</p>
+        </article>
+      </section>
+      <section class="main-section" id="CRV">
+        <header>Curve</header>
+        <article>
+          <p>Curve finance is a stable swap and liquidity pool dApp.</p>
+          <p>Users are able to swap between stable coins, bitcoin, ethereum, and some select cryptocurrencies.  Users can also pool select tokens into liquidty pools to earn rewards.  Rewards are given in curve tokens or pooled tokens.  Users can use Curve tokens to vote on protocol proposals.  Curve tokens are locked for a certain period of time increasing the amount of voting power.</p>
+          <ul class="defi-ul">
+            <li>swap between stable coins</li>  
+            <li>desposit coins into liquidty pools</li>  
+            <li>lock curve tokens to vote on protocol proposals</li> 
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Aave">
+        <header>AAVE</header>
+        <article>
+          <p>Aave is a lending and borrowing protocol.</p>
+          <p>Similar to Maker, users are able to deposit and borrow. However, users are not limited to only depositing ethereum and only borrowing DAI.  A larger variety of cryptocurrencies are available to be deposited and borrowed. Users must maintain a good "health factor" to avoid liquidation.</p>
+          <ul class="defi-ul">
+            <li>deposit stablecoins or other tokens</li>
+            <li>borrow stablecoins or other tokens</li>
+            <li>monitor health status to avoid liquidation</li>
+            <li>swap deposited assets into stable coins to manage health factor</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="UNI">
+        <header>Uniswap</header>
+        <article>
+          <p>Uniswap is a decentralized exchange(DEX). Users can swap cryptocurrencies for other cryptocurrencies.  Users can particpate in liquidity pools.  By participating in liquidity pools, users are rewarded with fees based on the percentage of their supply in the pool.  Users can also hold and stake the <a href="">$UNI</a> token which distributes rewards from transactions fees occuring on the Uniswap exchange. </p>
+          <code>swap a veriety of tokens
+            supply liquidity => earn fees from transactions
+            stake $UNI governance token => receive rewards from transactions on the exchange
+          </code>
+        </article>
+      </section>
+      <section class="main-section" id="Convex">
+        <header>Convex</header>
+        <article>
+          <p>Convex is a platform that builds ontop of Curve finance.  Users are able to deposit CRV tokens and earn boosted rewards.  Users also receive other tokens based on how voting plays out.</p>
+          <code>deposit crv => receive cvxCRV => stake cvxCRV => receive CRV rewards => earn crv trading fees
+            lock cvx => earn platform fees
+          </code>
+          <p>Convex shows the true potential of defi.  It was a protocol created to take advantage of a protocol that was already in place.</p>
+        </article>
+      </section>
+      <section class="main-section" id="COM">
+        <header>Compound</header>
+        <article>
+          <p>Compound is an algorithmic, autonomous interest rate protocol.  The protocol was designed for developers to expand and build on top of Compound. Users are able to stake COMP tokens and gain voting power to vote on proposals.</p>
+        </article>
+      </section>
+      <section class="main-section" id="BAL">
+        <header>Balancer</header>
+        <article>
+          <p>Non Fungible Tokens have many use cases. The current use case we see for NFTs is art. </p>
+          <code>NFTs can represent ownership of physical goods</code>
+        </article>
+      </section>
+      <section class="main-section" id="SUSHI">
+        <header>Sushiswap</header>
+        <article>
+          <p>Non Fungible Tokens have many use cases. The current use case we see for NFTs is art. </p>
+          <code>NFTs can represent ownership of physical goods</code>
+        </article>
+      </section>
+      <section class="main-section" id="FRAX">
+        <header>FRAX</header>
+        <article>
+          <p>Non Fungible Tokens have many use cases. The current use case we see for NFTs is art. </p>
+          <code>NFTs can represent ownership of physical goods</code>
+        </article>
+      </section>
+      <section class="main-section" id="YEARN">
+        <header>Yearn</header>
+        <article>
+          <p>Non Fungible Tokens have many use cases. The current use case we see for NFTs is art. </p>
+          <code>NFTs can represent ownership of physical goods</code>
+        </article>
+      </section>
+      <section class="main-section" id="SPELL">
+        <header>Abracadabra</header>
+        <article>
+          <p>Non Fungible Tokens have many use cases. The current use case we see for NFTs is art. </p>
+          <code>NFTs can represent ownership of physical goods</code>
+        </article>
+      </section>
+      <section class="main-section" id="BNT">
+        <header>Bancor</header>
+        <article>
+          <p>Non Fungible Tokens have many use cases. The current use case we see for NFTs is art. </p>
+          <code>NFTs can represent ownership of physical goods</code>
+        </article>
+      </section>
+      <section class="main-section" id="TORN">
+        <header>Tornado Cash</header>
+        <article>
+          <p>Non Fungible Tokens have many use cases. The current use case we see for NFTs is art. </p>
+          <code>NFTs can represent ownership of physical goods</code>
+        </article>
+      </section>
+      <section class="main-section" id="OHM">
+        <header>Olympus DAO</header>
+        <article>
+          <p>Non Fungible Tokens have many use cases. The current use case we see for NFTs is art. </p>
+          <code>NFTs can represent ownership of physical goods</code>
+        </article>
+      </section>
+      <section class="main-section" id="SNX">
+        <header>Synthetix</header>
+        <article>
+          <p>Non Fungible Tokens have many use cases. The current use case we see for NFTs is art. </p>
+          <code>NFTs can represent ownership of physical goods</code>
+        </article>
+      </section>
+      <section class="main-section" id="SEA">
+        <header>Opensea</header>
+        <article>
+          <p>Non Fungible Tokens have many use cases. The current use case we see for NFTs is art. </p>
+          <code>NFTs can represent ownership of physical goods</code>
+        </article>
+      </section>
+      <section class="main-section" id="ref">
+        <header>Reference</header>
+        <article>
+          <p>Use <a href="https://defillama.com/" target="_blank">DefiLlama</a> to navigate to the documentation for each of these protocols.</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
