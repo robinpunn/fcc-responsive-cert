@@ -145,4 +145,8 @@ code {
     min-width: 233px;
 }
 }
+
+a {
+    text-decoration: none;
+}
   
